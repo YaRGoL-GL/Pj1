@@ -14,9 +14,9 @@ Jamal = Student(height =160)
 Jamal.grow(height=10)
 print('Maxim = ', Maxim.height )
 print('Jamal🧑🏿 = ', Jamal.height )
-'''
 
-'''
+-----------------------------------------------
+
 class Student():
     def __init__(self, name=None):
         self.name = name
@@ -28,9 +28,9 @@ Jamal = Student(name='Jamal🧑🏿')
 Maxim = Student(name='Maxim👨🏿')
 print(Jamal)
 print(Maxim)
-'''
 
-'''
+---------------------------------------
+
 class Student:
     def __init__(self, name=None, height=160):
         self.name = name
